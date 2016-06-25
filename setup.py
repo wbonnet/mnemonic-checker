@@ -14,7 +14,27 @@
 #
 # Contributors list :
 #
-#    William Bonnet     wllmbnnt@gmail.com
+#    William Bonnet     wbonnet@theitmakers.com
 #
 #
 
+try:
+    from setuptools import setup
+
+except ImportError:
+    from distutils.core import setup
+
+config = {
+    'description': 'Mnemonic checker for valid instruction according to a given CPU',
+    'author': 'William Bonnet',
+    'url': 'https://github.com/wbonnet/mnemonic-checker/',
+    'download_url': 'https://github.com/wbonnet/mnemonic-checker/',
+    'author_email': 'wbonnet@theitmakers.com',
+    'version': '0.1',
+    'install_requires': ['nose'],
+    'packages': ['mnemonic-checker'],
+    'scripts': [],
+    'name': 'mnemonic-checker'
+}
+
+setup(**config)
