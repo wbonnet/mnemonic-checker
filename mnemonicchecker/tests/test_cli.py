@@ -18,3 +18,14 @@
 #
 #
 
+from nose.tools import *
+from mnemonicchecker import cli
+
+def setup():
+    print("Setup")
+
+def teardown():
+    print("Tear down")
+
+def test_basic():
+    print("CLI basic test")

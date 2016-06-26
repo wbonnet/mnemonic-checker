@@ -18,3 +18,22 @@
 #
 #
 
+#
+# Target : init
+#
+# Description :
+#	
+#	Install all requirements using PIP
+#
+init:
+    pip install -r requirements.txt
+
+#
+# Target : test, tests
+#
+# Description :
+#	
+#	Run unit tests
+#
+test:
+    py.test tests
