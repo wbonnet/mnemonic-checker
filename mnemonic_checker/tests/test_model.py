@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # The contents of this file are subject to the Apache 2.0 license you may not
 # use this file except in compliance with the License.
@@ -19,7 +20,7 @@
 #
 
 from nose.tools import *
-from mnemonicchecker import model
+import model
 
 def setup():
     print("Setup")

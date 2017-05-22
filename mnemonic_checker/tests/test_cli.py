@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # The contents of this file are subject to the Apache 2.0 license you may not
 # use this file except in compliance with the License.
@@ -18,3 +19,14 @@
 #
 #
 
+from nose.tools import *
+import cli
+
+def setup():
+    print("Setup")
+
+def teardown():
+    print("Tear down")
+
+def test_basic():
+    print("CLI basic test")
