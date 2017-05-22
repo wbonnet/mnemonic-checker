@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mnemonic-checker
+Version: 0.1
+Summary: Mnemonic checker for valid instruction according to a given CPU
+Home-page: https://github.com/wbonnet/mnemonic-checker/
+Author: William Bonnet
+Author-email: wbonnet@theitmakers.com
+License: UNKNOWN
+Download-URL: https://github.com/wbonnet/mnemonic-checker/
+Description: UNKNOWN
+Platform: UNKNOWN
